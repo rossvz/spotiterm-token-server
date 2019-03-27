@@ -1,0 +1,32 @@
+{
+   "name": "@sellr/spotiterm-token-server",
+   "version": "1.0.0",
+   "description": "",
+   "main": "build/index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node build/index",
+      "postinstall": "tsc"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "cors": "^2.8.5",
+      "cryptr": "^4.0.2",
+      "dotenv": "^7.0.0",
+      "express": "^4.16.4",
+      "mysql": "^2.16.0",
+      "reflect-metadata": "^0.1.13",
+      "request": "^2.88.0",
+      "routing-controllers": "latest",
+      "typeorm": "^0.2.7",
+      "typeorm-routing-controllers-extensions": "latest"
+   },
+   "devDependencies": {
+      "@types/node": "^8.10.45",
+      "prettier": "^1.16.4",
+      "ts-node": "3.3.0",
+      "typescript": "^3.3.4000"
+   }
+}
